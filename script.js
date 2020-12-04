@@ -5,6 +5,7 @@ var serverURL = "https://api.funtranslations.com/translate/minion.json"
 
 function displayError(error){
     console.log("Error occured:"+error)
+    alert("Some problem occured with the server, Try again in some time")
 }
 
 function setURLString(text){
